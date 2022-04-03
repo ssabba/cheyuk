@@ -4,7 +4,7 @@
 const config = {
   style: 'mapbox://styles/mapbox/light-v10',
   accessToken:
-    'pk.eyJ1IjoibWFwYm94LWNvbW11bml0eSIsImEiOiJja2tkN21jcjAwMG51MnBxdHAxemdueGpzIn0.e0IzLkytGq4pcGGieP8KNA',
+    'pk.eyJ1Ijoic3NhYmJhIiwiYSI6ImNrZGxmYmVsbjB4eWYzM2p2M3pmbGc3Y3QifQ.9CoHhlnMsTf2OxrTv1GoEA',
   CSV: './Sample_Data.csv',
   center: [-120.234, 47.398],
   zoom: 6,
