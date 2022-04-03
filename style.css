@@ -91,6 +91,11 @@
     display: block;
 
   }
-
+.viewport-third {
+    height: 50.3333vh!important;
+}
+.viewport-twothirds {
+    height: 50%!important;
+}
 
   
