@@ -91,7 +91,7 @@
     display: block;
 
   }
-.viewport-third {
+#map {
     height: 50.3333vh!important;
 }
 .viewport-twothirds {
