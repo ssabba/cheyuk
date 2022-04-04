@@ -411,7 +411,7 @@ geocoder.on('result', (ev) => {
 });
 
 map.on('load', () => {
-  map.addControl(geocoder, 'top-right');
+ // map.addControl(geocoder, 'top-right');  검색창 빼기
 
   // csv2geojson - following the Sheet Mapper tutorial https://www.mapbox.com/impact-tools/sheet-mapper
   console.log('loaded');
