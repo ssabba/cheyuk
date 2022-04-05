@@ -72,7 +72,9 @@
     clear: both;
     visibility: hidden;
 }
-
+.mapboxgl-popup {
+  padding-bottom: 50px;
+}
 .mapboxgl-popup-content {
     font: 400 15px/22px 'Source Sans Pro', 'Helvetica Neue', Sans-serif;
     text-align: center;
