@@ -449,7 +449,7 @@ map.on('load', () => {
         // Add the the layer to the map
         map.addLayer({
           id: 'locationData',
-          type: 'circle',
+          type: 'circle',   //csv에 이미지 경로 지정하고 그걸 읽어와서 배열로 돌리기?
           source: {
             type: 'geojson',
             data: geojsonData,
