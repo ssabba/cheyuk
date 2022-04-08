@@ -72,9 +72,10 @@
     clear: both;
     visibility: hidden;
 }
-/*.mapboxgl-popup {     마커와 팝업의 거리. 어째서인지 큰 놈한텐 
-  padding-bottom: 50px;
-}*/
+.mapboxgl-popup {    
+  /*padding-bottom: 50px; 마커와 팝업의 거리. */
+   border:1px;
+}
 .mapboxgl-popup-content {
     font: 400 15px/22px 'Source Sans Pro', 'Helvetica Neue', Sans-serif;
     text-align: center;
