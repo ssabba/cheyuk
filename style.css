@@ -99,10 +99,10 @@
             font: 400 15px/22px 'Source Sans Pro', 'Helvetica Neue', Sans-serif;
             text-align: center;
             padding: 5;
-            width: 450px;
+            width: 350px;
     }
     .hongcheon {
-            width: 450px;
+            width: 350px;
     }    
     .mapboxgl-popup-content div {
         padding:0em;
@@ -116,10 +116,10 @@
             font: 400 15px/22px 'Source Sans Pro', 'Helvetica Neue', Sans-serif;
             text-align: center;
             padding: 5;
-            width: 200px;
+            width: 150px;
     }
     .hongcheon {
-            width: 200px;
+            width: 150px;
     }
     .mapboxgl-popup-content div {
         padding:0em;
