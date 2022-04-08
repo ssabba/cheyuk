@@ -80,7 +80,7 @@
     font: 400 15px/22px 'Source Sans Pro', 'Helvetica Neue', Sans-serif;
     text-align: center;
     padding: 5;
-    width: 180px;
+   /* width: 180px;*/
   }
 
 .mapboxgl-popup-close-button {
@@ -94,4 +94,14 @@
     display: block;
 
   }
-
+@media only screen and (max-width: 480px) {
+    .mapboxgl-popup-content {
+        max-width: 250px;
+    }
+    .mapboxgl-popup-content div {
+        padding:0em;
+    }
+    .mapboxgl-popup-content p {
+        margin: 0.5em 0.5em;
+    }
+}
