@@ -73,7 +73,7 @@
     visibility: hidden;
 }
 .mapboxgl-popup {    
-  /*padding-bottom: 50px; 마커와 팝업의 거리. */
+  padding-bottom: -50px; /*마커와 팝업의 거리. */
    border:1px;
 }/*
 .mapboxgl-popup-content {
