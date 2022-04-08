@@ -94,7 +94,7 @@
     display: block;
 
   }
-@media only screen and (max-width: 480px) {
+@media only screen and (min-width: 480px) {
     .mapboxgl-popup-content {
             font: 400 15px/22px 'Source Sans Pro', 'Helvetica Neue', Sans-serif;
             text-align: center;
