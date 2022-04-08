@@ -75,16 +75,16 @@
 .mapboxgl-popup {    
   /*padding-bottom: 50px; 마커와 팝업의 거리. */
    border:1px;
-}
+}/*
 .mapboxgl-popup-content {
     font: 400 15px/22px 'Source Sans Pro', 'Helvetica Neue', Sans-serif;
     text-align: center;
     padding: 5;
     width: 180px;
   }
-
+*/
 .mapboxgl-popup-close-button {
-    display: none;
+    /*display: none;*/
   }
 
 .mapboxgl-popup-content h3 {
@@ -96,7 +96,10 @@
   }
 @media only screen and (max-width: 480px) {
     .mapboxgl-popup-content {
-        max-width: 250px;
+            font: 400 15px/22px 'Source Sans Pro', 'Helvetica Neue', Sans-serif;
+            text-align: center;
+            padding: 5;
+            width: 250px;
     }
     .mapboxgl-popup-content div {
         padding:0em;
