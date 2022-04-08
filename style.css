@@ -108,7 +108,7 @@
         margin: 0.5em 0.5em;
     }
 }
-@media only screen and (mmax-width: 800px) {
+@media only screen and (mmax-width: 799px) {
     .mapboxgl-popup-content {
             font: 400 15px/22px 'Source Sans Pro', 'Helvetica Neue', Sans-serif;
             text-align: center;
