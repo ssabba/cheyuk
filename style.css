@@ -84,7 +84,7 @@
   }
 */
 .mapboxgl-popup-close-button {
-    /*display: none;*/
+    display: none;
   }
 
 .mapboxgl-popup-content h3 {
