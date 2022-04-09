@@ -8,9 +8,8 @@ const config = {
   CSV: './Sample_Data.csv',
   center: [-120.234, 47.398],
   zoom: 6,
-  title: 'Replace with your title',
-  description:
-    'Replace with information about your application. Ex. You can search by address to sort the list below by distance. You can also filter the list by language support options, which days a location is open, and whether they have devices to use to complete the survey by phone or online.',
+  title: '목록에서 탐색',
+  description: '',
   sideBarInfo: ['Location_Name', 'Address', 'Phone'],
   popupInfo: ['Location_Name'],
   filters: [
