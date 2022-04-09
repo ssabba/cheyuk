@@ -75,8 +75,8 @@
 .mapboxgl-popup {    
   /*padding-bottom: -50px; 마커와 팝업의 거리. */
      transform:none !important;
-     top: 15%;
-     left: 10px;
+     top: 1%;
+     left: 1%;
 }
 .mapboxgl-popup-anchor-top .mapboxgl-popup-tip,
 .mapboxgl-popup-anchor-bottom .mapboxgl-popup-tip,
