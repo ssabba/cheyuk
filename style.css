@@ -74,7 +74,9 @@
 }
 .mapboxgl-popup {    
   /*padding-bottom: -50px; 마커와 팝업의 거리. */
-   border:1px;
+     transform:none !important;
+     top: 15%;
+     left: 10px;
 }/*
 .mapboxgl-popup-content {
     font: 400 15px/22px 'Source Sans Pro', 'Helvetica Neue', Sans-serif;
