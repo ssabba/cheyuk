@@ -10,7 +10,7 @@ const config = {
   zoom: 6,
   title: '목록에서 탐색',
   description: '',
-  sideBarInfo: ['Location_Name'],
+  sideBarInfo: ['Location_Name','County'],
   popupInfo: ['Location_Name', 'Address', 'Phone'],
   filters: [
     {
