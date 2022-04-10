@@ -2963,17 +2963,17 @@ textarea {
  * @example
  * <div class='viewport-third bg-darken10'>viewport-third</div>
  */
-@media only screen and (min-width: 800px) {
-    .viewport-third { height: 10vh !important; }
+@media only screen and (min-width: 800px) {  //가로크기 800이상
+    .viewport-third { height: 10vh !important; }   //필터버튼 포함한 상단의 높이
     .viewport-half { height: 50vh !important; }
     .viewport-twothirds { height: 90vh !important; } //목록의 높이
     .viewport-almost { height: 90vh !important; }
     .viewport-full { height: 100vh !important; }  
 }
-@media only screen and (max-width: 799px) {
-    .viewport-third { height: 50vh !important; }
+@media only screen and (max-width: 799px) {  //가로크기 800미만
+    .viewport-third { height: 50vh !important; }    //목록 높이
     .viewport-half { height: 50vh !important; }
-    .viewport-twothirds { height: 50vh !important; }
+    .viewport-twothirds { height: 50vh !important; }    //지도 높이
     .viewport-almost { height: 90vh !important; }
     .viewport-full { height: 100vh !important; }
 }
