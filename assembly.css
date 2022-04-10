@@ -2963,11 +2963,20 @@ textarea {
  * @example
  * <div class='viewport-third bg-darken10'>viewport-third</div>
  */
-.viewport-third { height: 50vh !important; }
-.viewport-half { height: 50vh !important; }
-.viewport-twothirds { height: 50vh !important; }
-.viewport-almost { height: 90vh !important; }
-.viewport-full { height: 100vh !important; }
+@media only screen and (min-width: 800px) {
+    .viewport-third { height: 33.3333vh !important; }
+    .viewport-half { height: 50vh !important; }
+    .viewport-twothirds { height: 66.6666vh !important; }
+    .viewport-almost { height: 90vh !important; }
+    .viewport-full { height: 100vh !important; }  
+}
+@media only screen and (max-width: 799px) {
+    .viewport-third { height: 50vh !important; }
+    .viewport-half { height: 50vh !important; }
+    .viewport-twothirds { height: 50vh !important; }
+    .viewport-almost { height: 90vh !important; }
+    .viewport-full { height: 100vh !important; }
+}
 /** @endgroup */
 
 /**
