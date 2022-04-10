@@ -2964,9 +2964,9 @@ textarea {
  * <div class='viewport-third bg-darken10'>viewport-third</div>
  */
 @media only screen and (min-width: 800px) {
-    .viewport-third { height: 33.3333vh !important; }
+    .viewport-third { height: 10vh !important; }
     .viewport-half { height: 50vh !important; }
-    .viewport-twothirds { height: 66.6666vh !important; }
+    .viewport-twothirds { height: 90vh !important; } //목록의 높이
     .viewport-almost { height: 90vh !important; }
     .viewport-full { height: 100vh !important; }  
 }
