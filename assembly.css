@@ -2971,9 +2971,9 @@ textarea {
     .viewport-full { height: 100vh !important; }  
 }
 @media only screen and (max-width: 799px) {  //가로크기 800미만
-    .viewport-third { height: 40vh !important; }    //목록 높이
+  /*  .viewport-third { height: 40vh !important; }    //목록 높이*/
     .viewport-half { height: 50vh !important; }
-    .viewport-twothirds { height: 50vh !important; }    //지도 높이
+    .viewport-twothirds { height: 47vh !important; }    //지도 높이
     .viewport-almost { height: 90vh !important; }
     .viewport-full { height: 100vh !important; }
 }
