@@ -54,10 +54,10 @@ function buildLocationList(locationData) {
     link.className = 'title';
     link.id = 'link-' + prop.id;
     link.innerHTML =
-      '<p style="line-height: 1.25">' + prop[columnHeaders[0]]+ prop[columnHeaders[1]]  +'</p>';
+      '<p style="line-height: 1.25">' + prop[columnHeaders[0]]+ '<br>'+ prop[columnHeaders[1]]  +'</p>';
 
     /* Add details to the individual listing. */
-    /*
+    /*  리스트에 제목과 사진만으로 링크 만들기 위해서 일반 텍스트는 아예 배제함. 링크는 바로 위 link 변수로 제어.
     const details = listing.appendChild(document.createElement('div'));
     details.className = 'content';
 
