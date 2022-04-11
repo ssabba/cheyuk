@@ -57,6 +57,7 @@ function buildLocationList(locationData) {
       '<p style="line-height: 1.25">' + prop[columnHeaders[0]]+ prop[columnHeaders[1]]  +'</p>';
 
     /* Add details to the individual listing. */
+    /*
     const details = listing.appendChild(document.createElement('div'));
     details.className = 'content';
 
@@ -66,7 +67,7 @@ function buildLocationList(locationData) {
       div.className;
       details.appendChild(div);
     }
-
+*/
     link.addEventListener('click', function () {
       const clickedListing = location.geometry.coordinates;
       flyToLocation(clickedListing);
