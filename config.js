@@ -7,7 +7,7 @@ const config = {
     'pk.eyJ1Ijoic3NhYmJhIiwiYSI6ImNrZGxmYmVsbjB4eWYzM2p2M3pmbGc3Y3QifQ.9CoHhlnMsTf2OxrTv1GoEA',
   CSV: './Sample_Data.csv',
   center: [-232.091744,37.709007],
-  zoom: 2,
+  zoom: 12,
   title: '목록에서 탐색',
   description: '',
   sideBarInfo: ['Location_Name','County'],
