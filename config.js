@@ -6,7 +6,7 @@ const config = {
   accessToken:
     'pk.eyJ1Ijoic3NhYmJhIiwiYSI6ImNrZGxmYmVsbjB4eWYzM2p2M3pmbGc3Y3QifQ.9CoHhlnMsTf2OxrTv1GoEA',
   CSV: './Sample_Data.csv',
-  center: [-120.234, 47.398],
+  center: [37.709007,-232.091744],
   zoom: 6,
   title: '목록에서 탐색',
   description: '',
