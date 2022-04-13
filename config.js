@@ -28,23 +28,19 @@ const config = {
     },
     {
       type: 'checkbox',
-      title: 'Devices available: ',
-      columnHeader: 'Devices_available', // Case sensitive - must match spreadsheet entry
-      listItems: ['Computer', 'Wi-Fi', 'Adaptive Laptops'], // Case sensitive - must match spreadsheet entry; This will take up to six inputs but is best used with a maximum of three;
+      title: '종목2',
+      columnHeader: 'Cate2', // Case sensitive - must match spreadsheet entry
+      listItems: ['수영', '배구', '야구'], // Case sensitive - must match spreadsheet entry; This will take up to six inputs but is best used with a maximum of three;
     },
     {
       type: 'dropdown',
-      title: 'Clients: ',
-      columnHeader: 'Clients',
+      title: '종목3',
+      columnHeader: 'Cate3',
       listItems: [
         'Adults',
-        'Disabled',
-        'Homeless',
-        'Immigrants/Refugees',
-        'Low Income',
-        'Seniors',
-        'Youth: Pre-teen',
-        'Youth: Teen',
+        '배구',
+        '야구',
+        '보치아'
       ],
     },
   ],
