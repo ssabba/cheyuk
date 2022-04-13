@@ -17,7 +17,7 @@ const map = new mapboxgl.Map({
   zoom: config.zoom,
   transformRequest: transformRequest,
 });
-console.log(style);
+console.log(map.style);
 function flyToLocation(currentFeature) {
   map.flyTo({
     center: currentFeature,
