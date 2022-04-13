@@ -307,7 +307,7 @@ function applyFilters() {
         
         geojSelectFilters.forEach((filter) => {
           if (
-            console.log(feature.properties[filter[0]]);
+            console.log(feature.properties[filter[0]])
             !feature.properties[filter[0]].includes(filter[1]) &&
             selected === true
           ) {
