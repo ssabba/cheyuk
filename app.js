@@ -302,12 +302,12 @@ function applyFilters() {
         });
       }
     } else {
+      console.log(feature);
       geojsonData.features.forEach((feature) => {
         let selected = true;
         
         geojSelectFilters.forEach((filter) => {
-          if (
-            console.log(feature.properties[filter[0]])
+          if (            
             !feature.properties[filter[0]].includes(filter[1]) &&
             selected === true
           ) {
