@@ -33,7 +33,7 @@ function createPopup(currentFeature) {
     .setLngLat(currentFeature.geometry.coordinates)    
     .setHTML('<h3>' + currentFeature.properties[config.popupInfo[0]] + '<p>' 
              + currentFeature.properties[config.popupInfo[1]]+ '<p>' +currentFeature.properties[config.popupInfo[2]] +'<p>' 
-             + currentFeature.properties[config.popupInfo[3]]'</h3>')    
+             + currentFeature.properties[config.popupInfo[3]]+'</h3>')    
     .addTo(map);
 }
 
