@@ -304,6 +304,7 @@ function applyFilters() {
     } else {
       geojsonData.features.forEach((feature) => {
         let selected = true;
+        console.log(geojSelectFilters.forEach((filter));
         geojSelectFilters.forEach((filter) => {
           if (
             !feature.properties[filter[0]].includes(filter[1]) &&
