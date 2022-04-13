@@ -17,7 +17,7 @@ const map = new mapboxgl.Map({
   zoom: config.zoom,
   transformRequest: transformRequest,
 });
-
+console.log(style);
 function flyToLocation(currentFeature) {
   map.flyTo({
     center: currentFeature,
@@ -91,7 +91,7 @@ function buildLocationList(locationData) {
         this.parentNode.classList.remove('active');
         this.classList.toggle('active');
         const content = this.nextElementSibling;
-        if (content.style.maxHeight) {    //커스터마이징한 맵박스 스타일 id가 왠지 안먹는다. 나오기는 제대로 나옴.
+        if (content.style.maxHeight) {   
           content.style.maxHeight = null;
         } else {
           content.style.maxHeight = content.scrollHeight + 'px';
