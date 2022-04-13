@@ -91,7 +91,7 @@ function buildLocationList(locationData) {
         this.parentNode.classList.remove('active');
         this.classList.toggle('active');
         const content = this.nextElementSibling;
-        console.log(this);
+        
         if (content.style.maxHeight) {   
           content.style.maxHeight = null;
         } else {
