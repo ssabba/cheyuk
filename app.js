@@ -89,7 +89,7 @@ function buildLocationList(locationData) {
         this.parentNode.classList.remove('active');
         this.classList.toggle('active');
         const content = this.nextElementSibling;
-        if (content.style.maxHeight) {
+        if (content.style.maxHeight) {    //사이드바 쪽에 텍스트를 안남겨놔서 null에러 뜨는듯. 실행엔 문제없음.
           content.style.maxHeight = null;
         } else {
           content.style.maxHeight = content.scrollHeight + 'px';
