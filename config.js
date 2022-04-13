@@ -16,7 +16,7 @@ const config = {
     {
       type: 'dropdown',
       title: '종목선택',
-      columnHeader: 'cate',
+      columnHeader: 'Cate',
       listItems: [
           '수영',
           '농구', 
