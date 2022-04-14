@@ -66,7 +66,7 @@ function buildLocationList(locationData) {
 
   //  for (let i = 1; i < columnHeaders.length; i++) {
       const div = document.createElement('div');
-      div.innerHTML += '<p>' + prop[columnHeaders[2]]+ '<p>;  //sidebarinfo 3번째 값.
+      div.innerHTML += '<p>' + prop[columnHeaders[2]]+ '<p>';  //sidebarinfo 3번째 값.
       div.className;
       div.style.font='bold 13px Gothic';  //사이드바 텍스트 폰트 스타일
       details.appendChild(div);      
