@@ -68,7 +68,7 @@ function buildLocationList(locationData) {
       const div = document.createElement('div');
       div.innerHTML += prop[columnHeaders[2]];
       div.className;
-      div.style.font='bold 15px 고딕체';
+      div.style.font='bold 13px';
       details.appendChild(div);      
 //    }
 
