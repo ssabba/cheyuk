@@ -62,12 +62,13 @@ function buildLocationList(locationData) {
       
     const details = listing.appendChild(document.createElement('div'));
     details.className = 'content';
+    content.style.color = 'blue';
 
   //  for (let i = 1; i < columnHeaders.length; i++) {
       const div = document.createElement('div');
       div.innerHTML += prop[columnHeaders[2]];
       div.className;
-      details.appendChild(div);
+      details.appendChild(div);      
 //    }
 
     link.addEventListener('click', function () {
