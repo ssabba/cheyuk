@@ -301,8 +301,7 @@ function applyFilters() {
           filteredGeojson.features.splice(idx, 1);
         });
       }
-    } else {
-      console.log(feature);
+    } else {      
       geojsonData.features.forEach((feature) => {
         let selected = true;
         
