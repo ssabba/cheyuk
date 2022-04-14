@@ -37,8 +37,6 @@ const config = {
       title: '종목3',
       columnHeader: 'Cate3',
       listItems: [
-        'Adults',
-        '배구',
         '야구',
         '보치아'
       ],
