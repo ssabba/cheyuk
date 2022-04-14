@@ -264,6 +264,7 @@ function applyFilters() {
         filteredGeojson.features.push(feature);
       });
     } else if (geojCheckboxFilters.length > 0) {
+      console.log(geojCheckboxFilters);
       geojCheckboxFilters.forEach((filter) => {
         geojsonData.features.forEach((feature) => {
           if (feature.properties[filter[0]].includes(filter[1])) {
