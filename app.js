@@ -95,10 +95,10 @@ function buildLocationList(locationData) {
         const content = this.nextElementSibling;        
         if (content.style.maxHeight) {   
           content.style.maxHeight = null;
-          content.style.color = 'blue';
+          content.style.color = '#db0d36';
         } else {
           content.style.maxHeight = content.scrollHeight + 'px';
-          content.style.color = 'blue';
+          content.style.color = '#db0d36';
         }
         
       }
