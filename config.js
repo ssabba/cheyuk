@@ -18,27 +18,25 @@ const config = {
       title: '종목선택',
       columnHeader: 'Cate',
       listItems: [
-          '수영',
-          '농구', 
-          '배구',
-          '야구',
-          '배드민턴',
-          '축구'        
+          '1',
+          '2', 
+          '3',
+          '4'          
       ],
     },
     {
       type: 'checkbox',
       title: '종목2',
       columnHeader: 'Cate2', // Case sensitive - must match spreadsheet entry
-      listItems: ['수영', '배구', '야구'], // Case sensitive - must match spreadsheet entry; This will take up to six inputs but is best used with a maximum of three;
+      listItems: ['1', '2', '3'], // Case sensitive - must match spreadsheet entry; This will take up to six inputs but is best used with a maximum of three;
     },
     {
       type: 'dropdown',
       title: '종목3',
       columnHeader: 'Cate3',
       listItems: [
-        '보치아',
-        '야구'
+        '1',
+        '2'
         
       ],
     },
