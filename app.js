@@ -59,7 +59,7 @@ function buildLocationList(locationData) {
       '<p style="line-height: 1.25">' + prop[columnHeaders[0]]+ '<br>'+ prop[columnHeaders[1]]  +'</p>';
 
     /* Add details to the individual listing. */
-    /*  리스트에 제목과 사진만으로 링크 만들기 위해서 일반 텍스트는 아예 배제함. 링크는 바로 위 link 변수로 제어.
+      
     const details = listing.appendChild(document.createElement('div'));
     details.className = 'content';
 
@@ -69,7 +69,7 @@ function buildLocationList(locationData) {
       div.className;
       details.appendChild(div);
     }
-*/
+
     link.addEventListener('click', function () {
       const clickedListing = location.geometry.coordinates;
       flyToLocation(clickedListing);
@@ -90,14 +90,14 @@ function buildLocationList(locationData) {
       for (let i = 0; i < geojsonData.features.length; i++) {
         this.parentNode.classList.remove('active');
         this.classList.toggle('active');
-        /*   위에서 사이드바 텍스트를 없앴기 때문에 제목+사진으로 구성된 버튼 다음의 nextElementSibling도 존재하지 않음.
+           //위에서 사이드바 텍스트를 없앴기 때문에 제목+사진으로 구성된 버튼 다음의 nextElementSibling도 존재하지 않음.
         const content = this.nextElementSibling;        
         if (content.style.maxHeight) {   
           content.style.maxHeight = null;
         } else {
           content.style.maxHeight = content.scrollHeight + 'px';
         }
-        */
+        
       }
     });
   });
