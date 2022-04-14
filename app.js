@@ -62,7 +62,7 @@ function buildLocationList(locationData) {
       
     const details = listing.appendChild(document.createElement('div'));
     details.className = 'content';
-    content.style.color = 'blue';
+    
 
   //  for (let i = 1; i < columnHeaders.length; i++) {
       const div = document.createElement('div');
@@ -95,8 +95,10 @@ function buildLocationList(locationData) {
         const content = this.nextElementSibling;        
         if (content.style.maxHeight) {   
           content.style.maxHeight = null;
+          content.style.color = 'blue';
         } else {
           content.style.maxHeight = content.scrollHeight + 'px';
+          content.style.color = 'blue';
         }
         
       }
