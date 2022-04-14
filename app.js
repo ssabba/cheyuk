@@ -69,7 +69,7 @@ function buildLocationList(locationData) {
       div.innerHTML += prop[columnHeaders[2]];  //sidebarinfo 3번째 값.
       div.className;
       div.style.font='bold 13px Gothic';  //사이드바 텍스트 폰트 스타일
-      div.style.lineHeight='20px';
+      div.style.lineHeight='35px';
       details.appendChild(div);      
 //    }
 
