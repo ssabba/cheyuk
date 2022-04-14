@@ -68,6 +68,7 @@ function buildLocationList(locationData) {
       const div = document.createElement('div');
       div.innerHTML += prop[columnHeaders[2]];
       div.className;
+      div.style.font='bold 15px 고딕체';
       details.appendChild(div);      
 //    }
 
@@ -94,11 +95,9 @@ function buildLocationList(locationData) {
            //위에서 사이드바 텍스트를 없앴기 때문에 제목+사진으로 구성된 버튼 다음의 nextElementSibling도 존재하지 않음.
         const content = this.nextElementSibling;        
         if (content.style.maxHeight) {   
-          content.style.maxHeight = null;
-          content.style.color = '#db0d36';
+          content.style.maxHeight = null;          
         } else {
-          content.style.maxHeight = content.scrollHeight + 'px';
-          content.style.color = '#db0d36';
+          content.style.maxHeight = content.scrollHeight + 'px';          
         }
         
       }
