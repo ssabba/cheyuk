@@ -21,7 +21,7 @@ const map = new mapboxgl.Map({
 function flyToLocation(currentFeature) {
   map.flyTo({
     center: currentFeature,
-    zoom: 13,
+    zoom: 13,   
   });
 }
 
@@ -68,7 +68,7 @@ function buildLocationList(locationData) {
       const div = document.createElement('div');
       div.innerHTML += prop[columnHeaders[2]];
       div.className;
-      div.style.font='bold 13px';
+      div.style.font='bold 13px';  //사이드바 텍스트 폰트 스타일
       details.appendChild(div);      
 //    }
 
