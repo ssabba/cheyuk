@@ -1,3 +1,3 @@
-Location_Name,Photo,Phone,Address,Homepage,Latitude,Longitude, text
-Davenport City Library,<p><img src='hc_sports_climing.jpg' class='hongcheon'>,033-436-7330,505 7th St,<a href='http://sports.gangwon.kr' style='color:blue;' target='_blank'>http://sports.gangwon.kr</a>,37.708672,-232.091752,"수영, 헬스"
-Davenport City Library,<p><img src='hc_sports_climing.jpg' class='hongcheon'>,033-436-7330,505 7th St,<a href='http://sports.gangwon.kr' style='color:blue;' target='_blank'>http://sports.gangwon.kr</a>,37.708672,-232.001752,"암벽"
+Location_Name,Photo,Phone,Address,Homepage,Latitude,Longitude,Text
+Davenport City Library,<p><img src='hc_sports_climing.jpg' class='hongcheon'>,033-436-7330,505 7th St,<a href='http://sports.gangwon.kr' style='color:blue;' target='_blank'>http://sports.gangwon.kr</a>,37.708672,-232.091752,'수영, 헬스'
+Davenport City Library,<p><img src='hc_sports_climing.jpg' class='hongcheon'>,033-436-7330,505 7th St,<a href='http://sports.gangwon.kr' style='color:blue;' target='_blank'>http://sports.gangwon.kr</a>,37.708672,-232.001752,'암벽'
